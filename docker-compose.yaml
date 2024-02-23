@@ -59,7 +59,7 @@ services:
     user: "root"
     restart: unless-stopped
     ports:
-      - 8999:8088
+      - 8899:8088
     depends_on: *superset-depends-on
     volumes: *superset-volumes
 
